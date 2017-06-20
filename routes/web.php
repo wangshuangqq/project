@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/test1-lb', function () {
 	return 'test1-lb';
 });
+//张飞的代码
+Route::get('/test1-zf', function () {
+	return 'test1-zf';
+});
