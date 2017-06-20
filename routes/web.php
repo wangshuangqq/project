@@ -26,3 +26,7 @@ Route::get('/test1-zf', function () {
 Route::get('/test1-gy', function () {
 	return 'test1-gy';
 });
+//张飞的代码
+Route::get('/test2-zf', function () {
+	return 'test2-zf';
+});
