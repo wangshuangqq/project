@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//刘备的代码
+Route::get('/test1-lb', function () {
+	return 'test1-lb';
+});
